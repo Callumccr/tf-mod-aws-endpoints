@@ -1,4 +1,38 @@
 # -----------------------------------------------------------------------------
+# Variables: Common AWS Provider - Autoloaded from Terragrunt
+# -----------------------------------------------------------------------------
+
+variable "aws_region" {
+  description = "The AWS region (e.g. ap-southeast-2). Autoloaded from region.tfvars."
+  type        = string
+  default     = ""
+}
+
+variable "aws_account_id" {
+  description = "The AWS account id of the provider being deployed to (e.g. 12345678). Autoloaded from account.tfvars"
+  type        = string
+  default     = ""
+}
+
+variable "aws_assume_role_arn" {
+  description = "(Optional) - ARN of the IAM role when optionally connecting to AWS via assumed role. Autoloaded from account.tfvars."
+  type        = string
+  default     = ""
+}
+
+variable "aws_assume_role_session_name" {
+  description = "(Optional) - The session name to use when making the AssumeRole call."
+  type        = string
+  default     = ""
+}
+
+variable "aws_assume_role_external_id" {
+  description = "(Optional) - The external ID to use when making the AssumeRole call."
+  type        = string
+  default     = ""
+}
+
+# -----------------------------------------------------------------------------
 # Variables: TF-MOD-AWS-ENDPOINTS
 # -----------------------------------------------------------------------------
 
@@ -1043,13 +1077,13 @@ variable "cloud_directory_endpoint_private_dns_enabled" {
 }
 
 # -----------------------------------------------------------------------------
-# Variables: TF-MOD-LABEL - https://github.com/aciem-admin/tf-mod-label
+# Variables: TF-MOD-LABEL
 # -----------------------------------------------------------------------------
 
 variable "namespace" {
   type        = string
   default     = ""
-  description = "(Optional) - Namespace, which could be your abbreviated product team, e.g. 'aciem'"
+  description = "(Optional) - Namespace, which could be your abbreviated product team, e.g. 'rci', 'mi', 'hp', or 'core'"
 }
 
 variable "environment" {
@@ -1061,7 +1095,7 @@ variable "environment" {
 variable "name" {
   type        = string
   default     = ""
-  description = "(Optional) - Solution name, e.g. 'vault', 'consul', or 'baseline'"
+  description = "(Optional) - Solution name, e.g. 'vault', 'consul', 'keycloak', 'k8s', or 'baseline'"
 }
 
 variable "delimiter" {
