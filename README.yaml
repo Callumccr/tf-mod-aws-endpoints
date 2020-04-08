@@ -1,0 +1,246 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: tf-mod-aws-endpoints
+
+# Canonical Git repo
+github_repo: https://github.com/Callumccr/tf-mod-aws-endpoints
+
+# # Badges to display
+# badges:
+#   - name: "Build Status"
+#     image: ""
+#     url: ""
+
+# Short description of this project
+description: |-
+  Use the `tf-mod-aws-endpoints` Terraform module to provision an [`Endpoint`](https://docs.aws.amazon.com/general/latest/gr/rande.html) for any AWS service
+# External context to include
+include:
+  - "docs/terraform.md"
+
+# Introduction to this project
+introduction: |-
+  The module provisions the following resources:
+    -  Alexa for Business
+    -  Amazon API Gateway
+    -  Application Auto Scaling
+    -  AWS Application Discovery Service
+    -  Amazon AppStream 2.0
+    -  AWS App Mesh
+    -  AWS AppSync
+    -  Amazon Athena
+    -  Aurora
+    -  AWS Auto Scaling
+    -  Amazon EC2 Auto Scaling
+    -  AWS Backup
+    -  AWS Batch
+    -  Billing and Cost Management
+    -  AWS Certificate Manager
+    -  AWS Certificate Manager Private Certificate Authority
+    -  Amazon Chime
+    -  AWS Cloud9
+    -  Amazon Cloud Directory
+    -  AWS CloudFormation
+    -  Amazon CloudFront
+    -  AWS CloudHSM
+    -  AWS Cloud Map
+    -  Amazon CloudSearch
+    -  AWS CloudTrail
+    -  Amazon CloudWatch
+    -  Amazon CloudWatch Events
+    -  Amazon CloudWatch Logs
+    -  AWS CodeBuild
+    -  AWS CodeCommit
+    -  AWS CodeDeploy
+    -  AWS CodePipeline
+    -  AWS CodeStar
+    -  AWS CodeStar Notifications
+    -  Amazon Cognito Identity
+    -  Amazon Cognito Sync
+    -  Amazon Comprehend
+    -  Amazon Comprehend Medical
+    -  Compute Optimizer
+    -  AWS Config
+    -  Amazon Connect
+    -  AWS Data Exchange
+    -  Amazon Data Lifecycle Manager
+    -  AWS Data Pipeline
+    -  DataSync
+    -  AWS Database Migration Service
+    -  AWS DeepLens
+    -  Detective
+    -  AWS Device Farm
+    -  AWS Direct Connect
+    -  AWS Directory Service
+    -  Amazon DocumentDB
+    -  Amazon DynamoDB
+    -  AWS Elastic Beanstalk
+    -  Amazon EBS
+    -  Amazon EC2
+    -  EC2 Image Builder
+    -  Amazon ECR
+    -  Amazon ECS
+    -  Amazon EKS
+    -  Amazon EFS
+    -  Amazon Elastic Inference
+    -  Elastic Load Balancing
+    -  Elastic Transcoder
+    -  Amazon ElastiCache
+    -  Amazon ES
+    -  Amazon EMR
+    -  EventBridge
+    -  Firewall Manager
+    -  Forecast
+    -  Amazon Fraud Detector
+    -  FreeRTOS
+    -  Amazon FSx
+    -  GameLift
+    -  S3 Glacier
+    -  Global Accelerator
+    -  AWS Glue
+    -  AWS Ground Station
+    -  GuardDuty
+    -  AWS Health
+    -  IAM
+    -  AWS Import/Export
+    -  Amazon Inspector
+    -  AWS IoT 1-Click
+    -  AWS IoT Analytics
+    -  AWS IoT Core
+    -  AWS IoT Device Defender
+    -  AWS IoT Device Management
+    -  AWS IoT Events
+    -  AWS IoT Greengrass
+    -  AWS IoT SiteWise
+    -  AWS IoT Things Graph
+    -  Amazon Kendra
+    -  AWS KMS
+    -  Kinesis Data Analytics
+    -  Kinesis Data Firehose
+    -  Kinesis Data Streams
+    -  Kinesis Video Streams
+    -  Lake Formation
+    -  Lambda
+    -  Amazon Lex
+    -  License Manager
+    -  Amazon Lightsail
+    -  Macie
+    -  Amazon ML
+    -  Managed Blockchain
+    -  AWS Marketplace
+    -  Amazon Mechanical Turk
+    -  Amazon MSK
+    -  MediaConnect
+    -  MediaConvert
+    -  MediaLive
+    -  MediaPackage
+    -  MediaStore
+    -  MediaTailor
+    -  Migration Hub
+    -  Amazon MQ
+    -  Neptune
+    -  Network Manager
+    -  AWS OpsWorks
+    -  Organizations
+    -  AWS Outposts
+    -  Amazon Personalize
+    -  Amazon Pinpoint
+    -  Amazon Polly
+    -  QLDB
+    -  Amazon QuickSight
+    -  AWS RAM
+    -  Amazon Redshift
+    -  Amazon Rekognition
+    -  Amazon RDS
+    -  Resource Groups
+    -  AWS RoboMaker
+    -  Route 53
+    -  Amazon SageMaker
+    -  Secrets Manager
+    -  Security Hub
+    -  AWS STS
+    -  AWS SMS
+    -  Service Quotas
+    -  AWS Serverless Application Repository
+    -  AWS Service Catalog
+    -  Shield Advanced
+    -  Amazon SES
+    -  Amazon SNS
+    -  Amazon SQS
+    -  Amazon S3
+    -  Amazon SWF
+    -  Amazon SimpleDB
+    -  AWS SSO
+    -  Snowball
+    -  Step Functions
+    -  AWS Storage Gateway
+    -  AWS Support
+    -  Systems Manager
+    -  Amazon Textract
+    -  Amazon Transcribe
+    -  Amazon Transcribe Medical
+    -  AWS SFTP
+    -  Amazon Translate
+    -  Amazon VPC
+    -  AWS WAF
+    -  Amazon WorkDocs
+    -  Amazon WorkLink
+    -  Amazon WorkMail
+    -  Amazon WorkSpaces
+    -  X-Ray
+
+# How to use this module
+usage: |-
+  The below values shown in the usage of this module are purely representative, please replace desired values as required.
+
+  TO-DO
+
+  ```hcl
+  ```
+
+# Simple and advanced examples of this project
+examples: |-
+  Simple and advanced examples of this project.
+
+  ### Advanced Example 1:
+
+  TO-DO
+
+    ```hcl
+    ```
+
+# Related projects
+related:
+  - name:
+    description:
+    url:
+
+# References
+references:
+  - name: "AWS Service Endpoints"
+    description: "AWS Documentation"
+    url: "https://docs.aws.amazon.com/general/latest/gr/rande.html"
+
+# Contributor information
+contributors:
+  - name: "Callum Robertson"
+    github: "callumccr"
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQHb_3oZMZA5YA/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=5QQQAlHrm1od5fQNZwdjOtbZWvsGcgNBqFRhZWgnPx4
+    homepage: https://www.linkedin.com/in/callum-robertson-1a55b6110/
+
+# Jira information
+jira:
+  - project:
+    project_url:
+    epic:
+    epic_url:
+    user_story:
+    user_story_url:
+
+---
+
